@@ -1,0 +1,5 @@
+<local>Taknok</local>
+<pathserver>D:\Desktop\Paul\Jeux\FTBInfinityServer\</pathserver>
+<nameserverfile>ServerStart.bat</nameserverfile>
+<minecraft>D:\Desktop\Paul\Jeux\FTBLauncher_64bit</minecraft>
+<server_data>D:\Desktop\Paul\Jeux\FTBInfinity\minecraft\servers.dat</server_data>

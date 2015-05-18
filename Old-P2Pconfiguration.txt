@@ -1,0 +1,11 @@
+<mapversion>2015-05-03-02-48</mapversion>
+<lasthost>Taknok</lasthost>
+<activehost>No</activehost>
+<player>
+	<name>Taknok</name>
+	<ip>25.136.110.156</ip>
+</player>
+<player>
+	<name>bicklil</name>
+	<ip>25.154.237.16</ip>
+</player>

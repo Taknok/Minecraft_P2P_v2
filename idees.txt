@@ -1,0 +1,8 @@
+commande stop-after : l'hote choisi de rester hote mais de quiter le jeu et quand dernier joeur quitte la partie l'hote ferme
+mettre pourcentage d'upload/download/creation du zip etc...
+creation du bat ne doit pas dépendre de D: ou C:
+configurer automatiquement le fichier server minecraft pour que celui ci soit dispo directement dans minecraft (et pas affciher l'ip du coup)
+faire les tests de ping et de bande passante
+le porter a mac et linux car les fichiers .bat ne doivent pas passer (faire avec subprocess)
+rechercher les processus en cours pour savoir si ftb et serveyr lancé
+rechercher le nom du monde dans server.proprieteies
