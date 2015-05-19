@@ -4,5 +4,5 @@ creation du bat ne doit pas dépendre de D: ou C:
 configurer automatiquement le fichier server minecraft pour que celui ci soit dispo directement dans minecraft (et pas affciher l'ip du coup)
 faire les tests de ping et de bande passante
 le porter a mac et linux car les fichiers .bat ne doivent pas passer (faire avec subprocess)(PB: pour linux c'est trop instable minecraft alors je te parle meme pas de MC avec des mods ...)
-rechercher les processus en cours pour savoir si ftb et serveyr lancé
+rechercher les processus en cours pour savoir si ftb et serveyr lancé et hamachi 
 rechercher le nom du monde dans server.proprieteies
