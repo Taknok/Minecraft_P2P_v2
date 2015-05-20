@@ -1,8 +1,8 @@
-changer un reseau public en priv� : 
+changer un reseau public en privé : 
 > PowerShell
 > Set-NetConnectionProfile -interfacealias Ethernet -NetworkCategory Private
 
-installer google api 3 :
+installer google api 3 : (mais normalement api intégrée dans le prog)
 > pip install git+https://github.com/enorvelle/GoogleApiPython3x.git
 
 installer speedtest : 
