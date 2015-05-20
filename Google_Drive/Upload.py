@@ -75,7 +75,7 @@ def find_folderid(file_name):
 
 def Create_folder(title, in_folder == False):
     """
-    #creer un fichier dans le drive
+    #creer un dossier dans le drive
 """
     credentials = credentials_creator()
     service = build_service(credentials)
