@@ -1,8 +1,11 @@
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
-Maconfiguration.txt
 
+
+#Projet
+Maconfiguration.txt
+a_credential_file
 
 # Folder config file
 Desktop.ini
