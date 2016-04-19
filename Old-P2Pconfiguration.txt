@@ -1,4 +1,4 @@
-<mapversion>2015-05-03-02-48</mapversion>
+<mapversion>2015-10-03-14-12</mapversion>
 <lasthost>Taknok</lasthost>
 <activehost>No</activehost>
 <player>

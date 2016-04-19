@@ -1,31 +1,20 @@
+import win32api, win32con
+import time
+
+def leftClick():
+    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,480,540)
+    time.sleep(0.1)
+    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,480,540)
+
+time.sleep(2)
 
 
+count = 100000
 
-
-def print_files_in_folder(folder_id):
-  credentials = credentials_creator()
-  service = build_service(credentials)
-  """Print files belonging to a folder.
-
-  Args:
-    service: Drive API service instance.
-    folder_id: ID of the folder to print files from.
-  """
-  page_token = None
-  while True:
-      param = {}
-      if page_token:
-        param['pageToken'] = page_token
-      children = service.children().list(folderId=folder_id, **param).execute()
-
-      for child in children.get('items', []):
-          print (child)
-        
-      page_token = children.get('nextPageToken')
-      
-      if not page_token:
-          break
-import pdb
-pdb.set_trace()
-
-print_files_in_folder("0B_iCMJDnGmmtfjA2UHlUeENiMXlQWW53bmNLbkQ5MlNKYVRnM0NYQjNzbHVGN0RnUW1kX1k")
+j = 0
+for i in range(count):
+    leftClick()
+    w = int(i/count * 100)
+    if w != j:
+        print(w,"%")
+        j = w
